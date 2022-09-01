@@ -20,7 +20,7 @@ public struct SymbolPicker: View {
     // MARK: - Static consts
 
     private static let symbols: [String] = {
-        guard let path = Bundle.module.path(forResource: "sfsymbols", ofType: "txt"),
+        guard let path = Bundle.main.path(forResource: "sfsymbols", ofType: "txt"),
               let content = try? String(contentsOfFile: path)
         else {
             return []
