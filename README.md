@@ -29,6 +29,12 @@ dependencies: [
 ]
 ```
 
+CocoaPods
+
+```
+pod 'SymbolPicker'
+```
+
 ### Example
 
 It is suggested to use SymbolPicker within a `sheet`.
